@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;   
+}
+
+.nav-links li {
+    display: flex;
+    list-style-type: none;
+    margin: 30px;
+}
+
+.nav-links h1 {
+    color:white;
+    text-decoration: underline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.nav-links a:hover {
+    color: black;
+    font-weight: bolder;
+    background-color: lightgray;
+    transition: 0.3s linear all;
+}
+
+.active-link {
+    background-color: white;   
+    color: black !important; 
+}
+
+.active-link:hover {
+    color:black !important;
+    
+}
